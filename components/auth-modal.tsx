@@ -16,7 +16,7 @@ export function AuthModal({ isOpen, onClose, onLogin }: AuthModalProps) {
 // clean 
   const [step, setStep] = useState(1)
   const [name, setName] = useState('Alex Smith')
-  const [email, setEmail] = useState('alex@anyway.ai')
+  const [email, setEmail] = useState('alex@launchflow.io')
   const { theme: nextTheme, setTheme: setNextTheme } = useTheme()
   const theme = nextTheme === 'system' ? 'auto' : (nextTheme || 'dark')
   const [role, setRole] = useState<string>('Marketer')
@@ -78,7 +78,7 @@ export function AuthModal({ isOpen, onClose, onLogin }: AuthModalProps) {
                 <Sparkles className="size-6 text-primary-foreground" strokeWidth={2.4} />
               </div>
               <h2 className="text-xl font-semibold tracking-tight">Create your account</h2>
-              <p className="text-sm text-muted-foreground">Get started with AnyWay AI in seconds</p>
+              <p className="text-sm text-muted-foreground">Get started with LaunchFlow in seconds</p>
             </div>
 
             <form onSubmit={handleNext} className="space-y-4">
@@ -168,7 +168,7 @@ export function AuthModal({ isOpen, onClose, onLogin }: AuthModalProps) {
           <div className="animate-in fade-in duration-300">
             <div className="flex flex-col items-center text-center space-y-2 mb-6">
               <h2 className="text-xl font-semibold tracking-tight">Tell us about yourself</h2>
-              <p className="text-sm text-muted-foreground">How will you be using AnyWay AI?</p>
+              <p className="text-sm text-muted-foreground">How will you be using LaunchFlow?</p>
             </div>
 
             <div className="grid grid-cols-2 gap-3 mb-6">

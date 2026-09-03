@@ -17,7 +17,7 @@ export function Navbar({ view, onNavigate, onGetStarted, user, onOpenAuth, onLog
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
         <button type="button" onClick={() => handleNav(user ? 'dashboard' : 'landing')} className="flex items-center gap-2 font-bold text-xl">
           <Sparkles className="size-6 text-primary" />
-          <span>AnyWay AI</span>
+          <span>LaunchFlow</span>
         </button>
 
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">

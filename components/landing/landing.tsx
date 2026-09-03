@@ -57,7 +57,7 @@ export function Landing({ onStart }: { onStart: () => void }) {
           className="animate-fade-up mt-6 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg"
           style={{ animationDelay: '160ms' }}
         >
-          Drop a URL and a screen recording. AnyWay AI extracts your brand, writes the hooks, records the
+          Drop a URL and a screen recording. LaunchFlow extracts your brand, writes the hooks, records the
           narration, scores the music, and renders a launch-ready MP4 — no editor, no timeline, no agency.
         </p>
 
@@ -252,7 +252,7 @@ export function Landing({ onStart }: { onStart: () => void }) {
               role: "Product Designer",
             },
             {
-              quote: "AnyWay AI replaced our expensive video production agency. We now generate high-converting product launch videos in minutes right from our browser.",
+              quote: "LaunchFlow replaced our expensive video production agency. We now generate high-converting product launch videos in minutes right from our browser.",
               name: "SOPHIE",
               role: "Head of Marketing",
             },
@@ -354,7 +354,7 @@ export function Landing({ onStart }: { onStart: () => void }) {
       {/* Footer */}
       <footer className="border-t border-border/60 py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 text-xs text-muted-foreground sm:flex-row sm:px-6">
-          <span>© 2026 AnyWay AI. All rights reserved.</span>
+          <span>© 2026 LaunchFlow. All rights reserved.</span>
           <div className="flex gap-6">
             <span>Privacy</span>
             <span>Terms</span>

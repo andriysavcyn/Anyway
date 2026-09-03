@@ -8,7 +8,7 @@ const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'AnyWay AI — AI Video & SVG Animation Studio',
+  title: 'LaunchFlow — AI Video & SVG Animation Studio',
   description:
     'Transform your website & screencast into cinematic AI marketing videos in 1 click. Brand-aware, narrated, scored, and rendered in minutes.',
   generator: 'v0.app',

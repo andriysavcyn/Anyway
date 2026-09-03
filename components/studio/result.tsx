@@ -126,7 +126,7 @@ export function Result({
                 className="rounded-full px-2.5 py-1 text-[10px] font-semibold tracking-widest text-primary-foreground uppercase transition-colors duration-700"
                 style={{ background: accent }}
               >
-                {dna.productName || 'AnyWay AI'}
+                {dna.productName || 'LaunchFlow'}
               </span>
               <p className="max-w-lg text-balance text-lg font-semibold tracking-tight drop-shadow sm:text-2xl">
                 {t < 12
